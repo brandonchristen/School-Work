@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.12/js/adal.min.js"></script>
+ <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+ <button id="SignIn" onclick="signIn()">Sign In</button>
+ <h4 id="WelcomeMessage"></h4>
+
+ <div>
+  <ul id = "OverViewNotes">
+      
+  <div id="List">
+    <nav>
+       <ul id ="Notes" >
+          <!-- notes -->
+       </ul>
+    </nav>
+  </div>
+
+    <nav id="NavTools">
+    </nav>
+
+  <div>
+    <h3 id = "NoteTitle">Note Title</h3>
+    <textarea id = "Body" rows="40"></textarea>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
+<!-- 
+document.ready(function()){
+    $('#button').click(function){
+        var symbol = $.trim($('#symbol').val().toUpperCae());
+        var url = "asdkasjlasdjflkjasdflkjasdlfjkadsjkfalkfjdal"
+
+        $.ajax(url, {
+            beforesend: function(){
+                $('#stock-price').html(loading...);
+            },
+            success: function(){
+                var quote = $(result).find()'[symbol="' + symbol + '"]" ');
+                var lastTrade = quote.find('LastTradePriceOnly').text();
+               
+                $('#stock-price').html('<strong>' + symbol + '</strong>' + ' ' 
+                + lastTrade);
+
+                $('#stoc-price-list').html($('#stock-price-list').html() +
+                '<li><strong>' + symbol + '</strong>' + ' ' + lastTrade + '</li>');
+
+            }
+    });
+});
+!-->
+
+

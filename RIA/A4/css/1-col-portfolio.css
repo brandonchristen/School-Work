@@ -1,0 +1,25 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.pagination {
+	margin-bottom: 15px;
+}
+
+#my-custom-dialog {
+    background: url("https://m.popkey.co/49397b/J6QL6_s-200x150.gif") repeat;
+    width: 500px;
+    height: 200px;
+}
