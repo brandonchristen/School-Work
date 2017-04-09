@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<script src="index.js" type="text/javascript"></script>
+
+<form id ="jsForm" name = "jsForm"  action="blah.html" onload="OnLoad()"  onsubmit="return checkForm()">
+    <label>First name
+        <input type="text" name="fName" id="fName" onFocus="changeText(this.id)" onBlur="normalText(this.id)" />
+    </label>
+    <br/>
+    <label>Last name
+        <input type="text" name="lName" id="lName" onFocus="changeText(this.id)" onBlur="normalText(this.id)"/>
+    </label>
+    <br/>
+    <label>Adress 1
+        <input type="text" name="adress1" id="adress1" onFocus="changeText(this.id)" onBlur="normalText(this.id)"/>
+    </label>
+    <br/>
+    <label>Adress 2
+        <input type="text" name="adress2" id="adress2" onFocus="changeText(this.id)" onBlur="normalText(this.id)"/>
+    </label>
+    <br/>
+    <label>Email
+        <input type="text" name="Email" id="Email" onFocus="changeText(this.id)" onBlur="normalText(this.id)"/>
+    </label>
+    <br/>
+    <label>Accept Terms And Conditions?
+    <input type="checkbox" name="Accept" id="Accept">
+    </label>
+    <br/>
+    <input type ="submit" id="submitButton" name="submitButton" value="Submit" />
+    <span id="hiddenMsg" name="hiddenMsg"/>
+
+
+</form>
+</body>
+</html>
